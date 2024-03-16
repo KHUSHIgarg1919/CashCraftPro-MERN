@@ -6,7 +6,7 @@ import Register from "./pages/Register";
 
 
 function App() {
-  axios.defaults.baseURL = 'http://localhost:8080/api/v1';
+  axios.defaults.baseURL = 'https://cashcraftpro-mern.onrender.com/api/v1';
 
   return (
     <>
