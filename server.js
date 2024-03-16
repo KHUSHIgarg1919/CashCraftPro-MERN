@@ -17,7 +17,10 @@ const app = express();
 //middlewares
 app.use(morgan("dev"));
 app.use(express.json());
-app.use(cors());
+// app.use(cors());
+app.use(cors({
+  origin: 'https://cashcraftpro-mern.onrender.com'
+}));
 
 //routes
 //user routes
